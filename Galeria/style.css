@@ -1,0 +1,51 @@
+body{
+    margin-top: 0;
+}
+
+header {
+    background-color: dimgrey;
+    width: auto;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    
+    
+}
+
+section {
+    
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: monospace;
+    margin: 0pt;
+    line-height: 33pt;
+    
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+#galeria{
+    padding-top: 15pt;
+}
+#galeria img {
+    width: 32%;
+    height: auto;
+    filter: saturate(0) blur(2pt);
+    transition-duration:0.2s;
+    padding: 0.5%;
+    
+
+}
+
+
+
+#galeria img:hover {
+    filter: saturate(1) blur(0pt); 
+}
