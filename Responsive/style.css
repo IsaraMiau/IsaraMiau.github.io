@@ -1,0 +1,71 @@
+body{
+    margin-top: 0;
+    background-color: lightgrey;
+}
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+.main img{
+    width: 100%;
+    border: solid 5px white;
+}
+
+/*@media only screen and (max-width:320px) {
+      /* For iphone5 vertical:
+    .menu, .main, .right {
+        width:100%;
+    }
+}
+*/
+@media only screen and (max-width:568px) {
+      /* For iphone5 horizontal: */
+    .menu, .main, .right {
+    width:100%;
+}
+}
+/*
+@media only screen and (max-width:768px) {
+      /* For ipad vertical: 
+    .menu, .main, .right {
+    width:100%;
+}
+}
+@media only screen and (max-width:1024px) {
+      /* For ipad horizontal: 
+    .menu, .main, .right {
+    width:100%;
+}
+}
+@media only screen and (max-width:1200px) {
+      /* For portatil:
+    .menu, .main, .right {
+    width:100%;
+}
+}*/
