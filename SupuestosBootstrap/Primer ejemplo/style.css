@@ -1,0 +1,15 @@
+.container .alto{
+    height: 90vh;
+}
+.primero, .segundo {
+    margin: 5px;
+}
+.primero{
+    background-color: azure;
+    padding: 0 15px;
+}
+
+.segundo{
+    background-color: beige;
+    padding: 0 10px;
+}

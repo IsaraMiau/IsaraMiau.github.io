@@ -1,0 +1,21 @@
+body{
+    margin-top: 0;
+}
+
+header {
+    background-color: dimgrey;
+    width: auto;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+ul {
+    font-size: 20pt;
+    font-family: monospace;
+    text-decoration: none;
+    
+}

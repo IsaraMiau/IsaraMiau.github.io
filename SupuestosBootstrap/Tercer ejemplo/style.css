@@ -1,0 +1,32 @@
+.container .alto{
+    height: 80vh;
+}
+.primero, .segundo {
+    margin: 5px;
+}
+.primero{
+    background-color: azure;
+    padding: 0 15px;
+}
+
+.segundo{
+    background-color: beige;
+    padding: 0 10px;
+    margin: 5px;
+} 
+
+.logo{
+    background-color: antiquewhite;
+    margin: 5px;
+} 
+
+.pie{
+    background-color: aliceblue;
+}
+.derecha1{
+    height: 30%;
+}
+
+.derecha2{
+    height: 70%;
+}

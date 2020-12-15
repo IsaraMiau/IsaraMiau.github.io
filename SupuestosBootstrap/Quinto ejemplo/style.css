@@ -1,0 +1,40 @@
+.container .alto{
+    height: 97%;
+}
+.central{
+    height:65vh; 
+}
+.primero, .segundo, .tercero {
+    margin: 5px;
+}
+.cabecera{
+    width: 40%;
+}
+.primero{
+    background-color: azure;
+    padding: 0 10px;
+}
+
+.segundo{
+    background-color: beige;
+    padding: 0 10px;
+}
+.tercero{
+    background-color: blanchedalmond;
+    padding: 0 10px;
+}
+.logo{
+    background-color: antiquewhite;
+    height: 20vh;
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+.pie{
+    background-color: aliceblue;
+    padding: 0 10px;
+}
+
+.col-xs-12{
+    width: 100%;
+}
