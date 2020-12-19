@@ -1,0 +1,113 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-kerning: auto;
+    margin: 0;
+}
+
+h1 {
+    font-weight: lighter;
+    line-height: 2;
+}
+
+h2 {
+    color: lightgray;
+    font-size: 10pt;
+    line-height: 1;
+}
+
+p {
+    text-align: left; 
+    font-weight: lighter;
+}
+
+#nav{
+    background-image:url('img/fondo.jpg');
+    background-size:cover;
+    height:100vh;
+    padding-right: 25%;
+    padding-bottom:50px;
+}
+.cajaBaja ul {
+    color: lightgray;
+    font-weight: lighter;
+    line-height: 2;
+    font-size: 9pt;
+    padding: 0;
+}
+
+.cajaBaja {
+    margin-top: 35px;
+}
+
+ul li {
+    list-style-type: none;
+}
+#imagen1 {
+    width: 100%;
+}
+
+.footer {
+    background-color: #000;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.footer ul {
+    color: white;
+    font-weight: lighter;
+    line-height: 2;
+    font-size: 15pt;
+    padding: 0;
+}
+
+a{
+    color:grey;
+    text-decoration:none;
+}
+
+a.link:hover{
+    color:limegreen;
+    text-decoration:underline;
+}
+a.nolink:hover{
+    text-decoration:line-through;
+}
+
+#nav {
+    width: 100%;
+    background-color: black;
+    margin-top: 0;
+}
+#nav ul li{
+    display:inline-block;
+    color:black;
+    font-size:28pt;
+    padding-top: 10px;
+}
+
+#blanco {
+    color: white;
+}
+#nav ul li a{
+    color:white;
+}
+
+.boton{
+    background-color:green;
+    border-radius:3px;
+    padding:5px;
+}
+
+.barra {
+    background-color: black!important;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    margin-top: 0;
+    z-index: 3;
+          
+}
+
+.carrusel{
+    width: 100%!;
+}
